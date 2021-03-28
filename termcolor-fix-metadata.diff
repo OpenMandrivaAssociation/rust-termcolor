@@ -1,8 +1,9 @@
---- termcolor-1.1.0/Cargo.toml	2020-01-11T15:08:11+00:00
-+++ termcolor-1.1.0/Cargo.toml	2020-01-15T06:35:47.343501+00:00
-@@ -29,5 +29,3 @@
+diff -up termcolor-1.1.2/Cargo.toml.1~ termcolor-1.1.2/Cargo.toml
+--- termcolor-1.1.2/Cargo.toml.1~	2021-03-28 18:08:17.230245966 +0200
++++ termcolor-1.1.2/Cargo.toml	2021-03-28 18:08:47.754142872 +0200
+@@ -29,5 +29,3 @@ name = "termcolor"
  bench = false
- [dev-dependencies.doc-comment]
- version = "0.3"
+ 
+ [dev-dependencies]
 -[target."cfg(windows)".dependencies.winapi-util]
 -version = "0.1.3"
