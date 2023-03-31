@@ -5,7 +5,7 @@
 
 Name:           rust-%{crate}
 Version:        1.1.2
-Release:        1
+Release:        2
 Summary:        Simple cross platform library for writing colored text to a terminal
 
 # Upstream license specification: Unlicense OR MIT
